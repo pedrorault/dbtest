@@ -18,6 +18,12 @@ dependencies {
     implementation 'io.quarkus:quarkus-hibernate-orm'
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
+
+
+    // Tests oracle
+    testImplementation "org.testcontainers:junit-jupiter:1.20.4"
+    testImplementation "org.testcontainers:testcontainers:1.20.4"
+    testImplementation "org.testcontainers:oracle-free:1.20.4"
 }
 
 group 'com.example.oracledb'
